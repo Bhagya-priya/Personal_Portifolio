@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vanapalli Bhagya Priya — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Optional: include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body class="dark">
+  <header id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="profile-left">
+        <div class="profile-wrap">
+          <div class="glow"></div>
+          <img id="profilePic"
+               data-placeholder="/PROFILE_IMAGE"
+               src="images/Profile_picture.jpg"
+               alt="Vanapalli Bhagya Priya" />
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <h1 id="name" class="name">
+          <span class="name-inner">Vanapalli Bhagya Priya</span>
+        </h1>
+        <h2 id="tagline" class="tagline">MCA Graduate🎓 | IT Enthusiast | Passionate About Technology & Problem Solving | Seeking Opportunities in Tech</h2>
+        <p id="about" class="about">
+          I am a passionate fresher in IT with skills in web development, programming, and problem solving.
+          I love building clean and interactive applications.
+        </p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn outline">Get in Touch</a>
+          <a class="btn outline" id="downloadResume" href="resume/Vanapalli_Bhagya_Priya_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h3 class="section-title">Skills & Technologies</h3>
+        <div class="skills-grid" id="skillsGrid">
+          <!-- badges inserted in JS or kept as markup -->
+          <span class="skill">Java</span>
+          <span class="skill">Python</span>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">MySQL</span>
+          <span class="skill">Basics of Networking</span>
+        </div>
+      </div>
+    </section>
+
+   <!-- Projects -->
+<section id="projects" class="section">
+  <div class="container">
+    <h3 class="section-title">Projects</h3>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="card project-card" style="background-color:white;">
+        <div class="slider" data-slider-id="proj1">
+          <div class="slide">
+            <img src="images/img1.jpg" alt="Project 1 image">
+          </div>
+          <div class="slide slide-text">
+            <div class="slide-text-inner" style="color: black;">
+              <h4>Bus Scheduling</h4>
+              <p>Bus Scheduling app to manage and update bus availability, built with Java, JDBC, and NetBeans.</p>
+              <p class="tech">Tech:HTml,CSS,JS,MySQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-prev" data-slider-id="proj1"><i class="fa fa-chevron-left"></i></button>
+          <button class="slider-next" data-slider-id="proj1"><i class="fa fa-chevron-right"></i></button>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card project-card" style="background-color:white;">
+        <div class="slider" data-slider-id="proj2">
+          <div class="slide">
+            <img src="images/img2.jpg" alt="Project 2 image">
+          </div>
+          <div class="slide slide-text">
+            <div class="slide-text-inner" style="color: black;">
+              <h4>Tic-Tac-Toe</h4>
+              <p>A fun 2-player game on a 3x3 grid. Players take turns marking X or O, and the first to get three in a row, column, or diagonal wins.</p>
+              <p class="tech">Tech: HTML,CSS,JavaScript </p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-prev" data-slider-id="proj2"><i class="fa fa-chevron-left"></i></button>
+          <button class="slider-next" data-slider-id="proj2"><i class="fa fa-chevron-right"></i></button>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card project-card" style="background-color:white">
+        <div class="slider" data-slider-id="proj3">
+          <div class="slide">
+            <img src="images/img3.jpg" alt="Project 3 image">
+          </div>
+          <div class="slide slide-text">
+            <div class="slide-text-inner" style="color: black;">
+              <h4>Currency Converter</h4>
+              <p>A web app to check real-time currency conversions, e.g., 1 USD to INR.</p>
+              <p class="tech">Tech: HTML,CSS,JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-prev" data-slider-id="proj3"><i class="fa fa-chevron-left"></i></button>
+          <button class="slider-next" data-slider-id="proj3"><i class="fa fa-chevron-right"></i></button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+   <!--certification-->
+       <section id="Certification" class="section">
+      <div class="container">
+        <h3 class="section-title">Certificates</h3>
+   <div class="slider" data-slider-id="cert1">
+  <div class="slide">
+    <img src="images/Sql.jpg" alt="Certification 1"
+    style="width: 30%; height: 10%; object-fit: cover; border-radius: 1rem;">
+    <p class="cert-title">SQL - Cognitive Class.ai</p>
+  </div>
+  <div class="slide">
+    <img src="images/PythonForDataScience.jpg" alt="Certification 2"     style="width: 30%; height: 10%; object-fit: cover; border-radius: 1rem;">
+    <p class="cert-title">Python For Data Science - NPTEL</p>
+  </div>
+  <div class="slide">
+    <img src="images/VirtualInternship.jpg" alt="Certification 3"     style="width: 30%; height: 10%; object-fit: cover; border-radius: 1rem;">
+    
+    <p class="cert-title">Internship on AI/ML -VCube</p></div>
+  </div>
+
+  <!-- Navigation dots -->
+  <div class="slider-dots"></div>
+</div>
+
+<div class="slider-controls">
+  <button class="slider-prev" data-slider-id="cert1"><i class="fa fa-chevron-left"></i></button>
+  <button class="slider-next" data-slider-id="cert1"><i class="fa fa-chevron-right"></i></button>
+</div>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <h3 class="section-title">Education</h3>
+        <div class="edu-card card">
+          <h4 style="color: white;">B.V.Raju College, Bhimavaram</h4>
+          <p>Master of Computer Applications  : 2023-2025</p>
+          </div>
+           <div class="edu-card card">
+          <h4 style="color: white;">S.Ch.V.P.M.R.Govt Degree College, Ganapavaram</h4>
+          <p >Bachelor of Science  : 2020-2023</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-card card" style="border:1.2px solid rgba(255,255,255,0.1) ;background:transparent;color:var(--accent);color: white;">
+          <h3 class="section-title">Get in Touch</h3>
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/xldpyyqj" method="POST">
+            <label>
+              <span>Your Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Your Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <a class="btn outline" href="https://mail.google.com/mail/?view=cm&to=bhagyapriyavanapalli@gmail.com&su=Hello&body=Hi%20there!">Or email me</a>
+            </div>
+            <p id="formStatus" class="form-status"></p>
+          </form>
+        </div>
+
+        <aside class="contact-info card" style="border: 1.2px solid rgba(255,255,255,0.1) ;background:transparent;color:var(--accent);color: white;">
+          <h4>Contact</h4>
+          <p>Email: <a href="https://mail.google.com/mail/?view=cm&to=bhagyapriyavanapalli@gmail.com&su=Hello&body=Hi%20there!">bhagyapriyavanapalli@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/bhagya-priya-vanapalli-86383330a/" target="_blank">/in/bhagya</a></p>
+          <p>GitHub: <a href="https://github.com/Bhagya-priya/" target="_blank">github.com/Bhagya-priya</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Vanapalli Bhagya Priya</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
