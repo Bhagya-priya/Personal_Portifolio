@@ -39,4 +39,12 @@ Bhagya Priya**
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to **open an issue** or **submit a pull request**.
+
+---
+
+## 📌 License
+
+This project is **open-source** and available under the [MIT License](LICENSE).
+
+----
 ### ⭐ If you like this portfolio, don't forget to star the repository!
